@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AHARAM favicon">
+  <defs>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6d67a"/>
+      <stop offset="35%" stop-color="#d9b85f"/>
+      <stop offset="70%" stop-color="#b8892e"/>
+      <stop offset="100%" stop-color="#f0c75e"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="#0b0b0a"/>
+  <path d="M28 96L58 26h12l30 70h-14l-6-14H48l-6 14H28zm23-27h18l-9-20-9 20z" fill="url(#gold)"/>
+  <path d="M82 28h16v12H82zm0 18h16v12H82zm0 18h16v12H82z" fill="#f5e0a0" opacity="0.68"/>
+</svg>
