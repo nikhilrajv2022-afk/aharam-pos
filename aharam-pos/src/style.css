@@ -1,2 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
 :root{font-family:'DM Sans',sans-serif;color:#f4f0e7;background:#10100e;font-synthesis:none}*{box-sizing:border-box}body{margin:0;background:#10100e}button,input,textarea,select{font:inherit}button{cursor:pointer}.app{min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#28251a 0,#10100e 45%)}header{height:76px;padding:14px clamp(16px,4vw,58px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #403a27;position:sticky;top:0;background:#10100ef2;backdrop-filter:blur(12px);z-index:5}.brand{font-family:'Playfair Display',serif;color:#d8b66b;font-size:27px;letter-spacing:5px;font-weight:700}header small{font-size:9px;letter-spacing:3px;color:#a99a79}.topright{display:flex;gap:8px;align-items:center}.live{font-size:10px;color:#d9bd7a;margin-right:10px}.outline,.primary,.add,.orderactions button{border:1px solid #a98a4d;color:#e6ca8d;background:transparent;border-radius:7px;padding:10px 14px}.primary,.orderactions button{background:#c5a45f;color:#17140e;border:0;font-weight:700}.hero{text-align:center;padding:72px 16px 58px;border-bottom:1px solid #393222}.eyebrow{letter-spacing:3px;font-size:10px;color:#d5b56e}.hero h1,.dashhead h1{font:600 clamp(38px,6vw,66px)/1.1 'Playfair Display',serif;margin:12px 0}.hero h1 em{color:#d8b66b}.hero p{color:#b8b09d}.tabletag{display:inline-block;border:1px solid #b69658;color:#e4c983;padding:8px 14px;border-radius:30px;margin-top:12px;font-size:12px}.customer{max-width:1380px;margin:auto;padding:28px 22px;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:24px}.toolbar input,.cart input,.panel input,.panel textarea,.panel select,.login input{width:100%;background:#191915;border:1px solid #49422e;color:#f4f0e7;padding:12px;border-radius:7px;margin:5px 0}.cats{display:flex;gap:8px;overflow:auto;padding:14px 0}.cats button{white-space:nowrap;border:1px solid #49422e;background:#181814;color:#b9b09c;border-radius:30px;padding:8px 13px}.cats button.active{background:#c5a45f;color:#17140e;border-color:#c5a45f}.items{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}.item,.panel{background:#191915;border:1px solid #393323;border-radius:11px;padding:16px}.itemtop{display:flex;justify-content:space-between;color:#e3c47c}.itemcat{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#96896c}.item h3{margin:12px 0 5px;font:600 18px 'Playfair Display',serif}.item p,.muted{font-size:12px;color:#aaa38f;line-height:1.5}.add{padding:7px 12px;margin-top:8px}.cart{height:max-content;position:sticky;top:90px}.cart h2,.panel h2{font:600 24px 'Playfair Display',serif;color:#e1c17a;margin:0 0 12px}.cart label{display:block;font-size:12px;color:#c6b78f}.cart select{display:block;width:100%;margin:7px 0 12px;background:#191915;color:white;padding:10px;border:1px solid #49422e;border-radius:7px}.cartline{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #353024}.cartline b{display:block;font-size:13px}.cartline small{color:#aaa38f}.stepper{display:flex;gap:9px;align-items:center}.stepper button{background:#292519;border:1px solid #78633d;color:#e4c47e;border-radius:5px}.total{display:flex;justify-content:space-between;border-top:1px solid #5a4a2b;padding:16px 0;margin-top:12px}.total b{color:#e4c47e}.full{width:100%;margin-top:14px}.full:disabled{opacity:.45;cursor:not-allowed}.notice{position:fixed;z-index:9;top:84px;left:50%;transform:translateX(-50%);background:#d8bd7e;color:#17140e;padding:12px 18px;border-radius:8px;max-width:90%;cursor:pointer}.login{position:fixed;z-index:8;right:20px;top:82px;width:290px;box-shadow:0 12px 40px #000}.track{max-width:550px;margin:0 auto 30px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}.track code{font-size:10px;overflow-wrap:anywhere}.dashboard{max-width:1300px;margin:auto;padding:38px 22px}.dashhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.dashhead h1{font-size:42px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:18px}.stats div{background:#1a1914;border:1px solid #3d3525;border-radius:9px;padding:18px}.stats small,.stats b{display:block}.stats small{color:#aaa38f}.stats b{font-size:28px;color:#e1c17a;margin-top:8px}.dashboard>.panel{margin:16px 0}.dashboard .panel>button{margin:5px}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;padding:12px;border-bottom:1px solid #393323}th{color:#d8b66b}.textbtn{background:none;border:0;color:#e2c17b}.modal{position:fixed;inset:0;background:#000b;display:grid;place-items:center;z-index:10;padding:20px}.modal .panel{width:min(480px,100%);box-shadow:0 20px 80px #000}.modal textarea{min-height:80px}.modal label{display:block;color:#cfc4a6;margin:12px 0}.actions{display:flex;justify-content:flex-end;gap:8px}.kitchen{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}.orderhead{display:flex;justify-content:space-between;align-items:center}.orderhead>b{font:600 25px 'Playfair Display',serif;color:#e3c47c}.status{font-size:10px;text-transform:uppercase;padding:5px 8px;border-radius:20px;background:#3d3422;color:#e6c77e}.ordercard h3{margin:12px 0 2px}.ordercard>small,.orderitem small{color:#aaa38f}.orderitem{padding:10px 0;border-bottom:1px solid #373024}.orderitem b{font-size:13px}.orderitem small{display:block}.orderactions{margin-top:14px}.orderactions button{width:100%}footer{border-top:1px solid #3d3525;padding:25px;text-align:center;color:#c9b681;font-size:12px;letter-spacing:1px}footer span{display:block;color:#857c68;font-size:10px;margin-top:8px}.setup{max-width:680px;margin:10vh auto;padding:36px;border:1px solid #5b4a2b;border-radius:16px;background:#191915;text-align:center}.setup p{color:#c4bba6;line-height:1.7}@media(max-width:850px){.customer{grid-template-columns:1fr}.cart{position:static;order:-1}.items{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}.hero{padding:48px 16px}.topright{gap:4px}.topright button{padding:8px;font-size:11px}.live{display:none}.stats{grid-template-columns:repeat(3,1fr)}.dashhead h1{font-size:32px}}@media(max-width:480px){header{height:auto;align-items:flex-start}.brand{font-size:21px}.topright{flex-wrap:wrap;justify-content:flex-end}.stats small{font-size:10px}.stats b{font-size:22px}.dashhead{align-items:flex-start;gap:12px}.dashhead .primary{font-size:11px;padding:9px}}
+
+/* AHARAM - Mobile menu grid improvement */
+@media (max-width: 850px) {
+  .customer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .item {
+    min-width: 0;
+    padding: 11px;
+  }
+
+  .item h3 {
+    font-size: 15px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  .item p {
+    font-size: 11px;
+    margin: 5px 0;
+  }
+
+  .itemtop {
+    gap: 5px;
+    font-size: 13px;
+  }
+
+  .itemcat {
+    font-size: 9px;
+  }
+
+  .add {
+    width: 100%;
+    padding: 8px 5px;
+  }
+}
+
+/* Three columns on wider screens */
+@media (min-width: 851px) {
+  .items {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
